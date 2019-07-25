@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearSearch", "LinearSearch\LinearSearch.csproj", "{81E251D7-AB78-4552-B5B7-A98EDD4913A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Searching", "Searching", "{EFDF70DF-0FC3-424F-9A72-459C538F2D14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinearSearchAlgorithm", "LinearSearchAlgorithm", "{1F90AE44-3B69-40ED-8FE8-0447E09665AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearSearchAlgorithmUnitTest", "LinearSearchAlgorithmUnitTest\LinearSearchAlgorithmUnitTest.csproj", "{043205EA-8068-454D-A8A5-8A31D31D5BF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81E251D7-AB78-4552-B5B7-A98EDD4913A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E251D7-AB78-4552-B5B7-A98EDD4913A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E251D7-AB78-4552-B5B7-A98EDD4913A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E251D7-AB78-4552-B5B7-A98EDD4913A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{043205EA-8068-454D-A8A5-8A31D31D5BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{043205EA-8068-454D-A8A5-8A31D31D5BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{043205EA-8068-454D-A8A5-8A31D31D5BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{043205EA-8068-454D-A8A5-8A31D31D5BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81E251D7-AB78-4552-B5B7-A98EDD4913A6} = {1F90AE44-3B69-40ED-8FE8-0447E09665AE}
+		{1F90AE44-3B69-40ED-8FE8-0447E09665AE} = {EFDF70DF-0FC3-424F-9A72-459C538F2D14}
+		{043205EA-8068-454D-A8A5-8A31D31D5BF2} = {1F90AE44-3B69-40ED-8FE8-0447E09665AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3363A929-94D1-4362-955D-F6CA9FFEE0DB}
+	EndGlobalSection
+EndGlobal
