@@ -3,31 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29025.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearch", "LinearSearch\LinearSearch.csproj", "{81E251D7-AB78-4552-B5B7-A98EDD4913A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearch", "Searching\LinearSearch\LinearSearch.csproj", "{81E251D7-AB78-4552-B5B7-A98EDD4913A6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Searching", "Searching", "{EFDF70DF-0FC3-424F-9A72-459C538F2D14}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinearSearchAlgorithm", "LinearSearchAlgorithm", "{1F90AE44-3B69-40ED-8FE8-0447E09665AE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinearSearchAlgorithm", "Searching\LinearSearchAlgorithm", "{1F90AE44-3B69-40ED-8FE8-0447E09665AE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearchTest", "LinearSearchAlgorithmUnitTest\LinearSearchTest.csproj", "{043205EA-8068-454D-A8A5-8A31D31D5BF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearchTest", "Searching\LinearSearchAlgorithmUnitTest\LinearSearchTest.csproj", "{043205EA-8068-454D-A8A5-8A31D31D5BF2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinarySearchAlgorithm", "BinarySearchAlgorithm", "{5FD82C5A-BAA7-4A63-B15C-338B9F8F6BBA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinarySearchAlgorithm", "Searching\BinarySearchAlgorithm", "{5FD82C5A-BAA7-4A63-B15C-338B9F8F6BBA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{019E1BEB-6DFA-4CA5-9E05-53338AC89D74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "Searching\BinarySearch\BinarySearch.csproj", "{019E1BEB-6DFA-4CA5-9E05-53338AC89D74}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchTest", "BinarySearchTest\BinarySearchTest.csproj", "{8EE8CD07-E58E-4B50-9256-56998C4500E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchTest", "Searching\BinarySearchTest\BinarySearchTest.csproj", "{8EE8CD07-E58E-4B50-9256-56998C4500E1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JumpSearchAlgorithm", "JumpSearchAlgorithm", "{E3D61079-8D2E-4B02-AD0D-0719836447A2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JumpSearchAlgorithm", "Searching\JumpSearchAlgorithm", "{E3D61079-8D2E-4B02-AD0D-0719836447A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpSearch", "JumpSearch\JumpSearch.csproj", "{F71BCB42-7302-4825-A1BA-5F706102B6C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpSearch", "Searching\JumpSearch\JumpSearch.csproj", "{F71BCB42-7302-4825-A1BA-5F706102B6C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpSearchTest", "JumpSearchTest\JumpSearchTest.csproj", "{E8FE805B-CC15-4523-A048-3E6700152C23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpSearchTest", "Searching\JumpSearchTest\JumpSearchTest.csproj", "{E8FE805B-CC15-4523-A048-3E6700152C23}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterpolationSearchAlgorithm", "InterpolationSearchAlgorithm", "{2655390F-47EF-4F1E-9509-28F928545BF7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterpolationSearchAlgorithm", "Searching\InterpolationSearchAlgorithm", "{2655390F-47EF-4F1E-9509-28F928545BF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpolationSearch", "InterpolationSearch\InterpolationSearch.csproj", "{3A99595D-C41B-4F27-97CC-D3CF579F0351}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpolationSearch", "Searching\InterpolationSearch\InterpolationSearch.csproj", "{3A99595D-C41B-4F27-97CC-D3CF579F0351}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpolationSearchTest", "InterpolationSearchTest\InterpolationSearchTest.csproj", "{DDC4884F-F20E-451D-B8DC-365BE2C198E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpolationSearchTest", "Searching\InterpolationSearchTest\InterpolationSearchTest.csproj", "{DDC4884F-F20E-451D-B8DC-365BE2C198E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
