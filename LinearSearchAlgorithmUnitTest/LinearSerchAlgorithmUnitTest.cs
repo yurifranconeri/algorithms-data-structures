@@ -27,5 +27,26 @@ namespace LinearSearchAlgorithmUnitTest
             var foundIndexValue = LinearSearch.LinearSearch.Search(inputArray, valueToFind);
             Assert.AreEqual(foundIndexValue, valueNotFoundIndex);
         }
+
+        [TestMethod]
+        public void NullValueOnArray()
+        {
+            int[] inputArray = null ;
+            var valueToFind = 26;
+            var valueIndex = -1;
+
+            var foundIndexValue = LinearSearch.LinearSearch.Search(inputArray, valueToFind);
+            Assert.AreEqual(foundIndexValue,valueIndex);
+        }
+
+        [TestMethod]
+        public void EmptyValueOnArray()
+        {
+            int[] inputArray = null;
+            var valueToFind = 26;
+            var valueIndex = -1;
+            var foundIndexValue = LinearSearch.LinearSearch.Search(inputArray, valueToFind);
+            Assert.AreEqual(foundIndexValue,valueIndex);
+        }
     }
 }

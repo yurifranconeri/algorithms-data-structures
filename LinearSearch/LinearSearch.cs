@@ -4,14 +4,19 @@ using System.Text;
 
 namespace LinearSearch
 {
-    public static class LinearSearch
+    public class LinearSearch
     {
-        public static void Main(string[] args)
-        {
-
-        }
 
         public static int Search(int[] arrayValues, int valueToFind)
+        {
+            if (arrayValues == null || arrayValues.Length < 1)
+            {
+                return -1;
+            }
+            return LinearSearching(arrayValues, valueToFind);
+        }
+
+        private static int LinearSearching(int[] arrayValues, int valueToFind)
         {
             for (int index = 0; index < arrayValues.Length; index++)
             {
