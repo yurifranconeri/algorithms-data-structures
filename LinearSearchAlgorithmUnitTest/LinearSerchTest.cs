@@ -1,10 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using LinearSearch;
 
-namespace LinearSearchAlgorithmUnitTest
+namespace LinearSearchTest
 {
     [TestClass]
-    public class LinearSerchAlgorithmUnitTest
+    public class LinearSerchTest
     {
         [TestMethod]
         public void FindAValueOnArray()
@@ -16,7 +16,7 @@ namespace LinearSearchAlgorithmUnitTest
             var foundIndexValue=LinearSearch.LinearSearch.Search(inputArray, valueToFind);
             Assert.AreEqual(foundIndexValue, valueIndex);
         }
-
+        
         [TestMethod]
         public void NotFindAValueOnArray()
         {

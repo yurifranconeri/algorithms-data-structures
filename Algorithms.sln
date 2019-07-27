@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Searching", "Searching", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinearSearchAlgorithm", "LinearSearchAlgorithm", "{1F90AE44-3B69-40ED-8FE8-0447E09665AE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearchAlgorithmUnitTest", "LinearSearchAlgorithmUnitTest\LinearSearchAlgorithmUnitTest.csproj", "{043205EA-8068-454D-A8A5-8A31D31D5BF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearchTest", "LinearSearchAlgorithmUnitTest\LinearSearchTest.csproj", "{043205EA-8068-454D-A8A5-8A31D31D5BF2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinarySearchAlgorithm", "BinarySearchAlgorithm", "{5FD82C5A-BAA7-4A63-B15C-338B9F8F6BBA}"
 EndProject
