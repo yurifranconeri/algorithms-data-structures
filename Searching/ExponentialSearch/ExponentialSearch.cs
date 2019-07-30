@@ -48,7 +48,7 @@ namespace ExponentialSearch
 
         private static int BinarySearching(int[] values, int valueToFind, int startIndex, int finalIndex)
         {
-            var midValue = startIndex + (finalIndex - startIndex);
+            var midValue = startIndex + (finalIndex - startIndex)/2;
             if (finalIndex <= startIndex)
             {
                 return -1;
