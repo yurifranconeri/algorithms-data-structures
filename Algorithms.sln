@@ -33,7 +33,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExponentialSearchingAlgorit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExponentialSearch", "Searching\ExponentialSearch\ExponentialSearch.csproj", "{58023C83-F3F8-41E6-94E7-A2B155325DC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExponentialSearchTest", "ExponentialSearchTest\ExponentialSearchTest.csproj", "{A77ED0A0-EC32-48FC-AF0C-0DAFB2A774D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExponentialSearchTest", "Searching\ExponentialSearchTest\ExponentialSearchTest.csproj", "{A77ED0A0-EC32-48FC-AF0C-0DAFB2A774D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
