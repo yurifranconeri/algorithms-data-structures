@@ -29,11 +29,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterpolationSearch", "Sear
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterpolationSearchTest", "Searching\InterpolationSearchTest\InterpolationSearchTest.csproj", "{DDC4884F-F20E-451D-B8DC-365BE2C198E1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExponentialSearchingAlgorithm", "ExponentialSearchingAlgorithm", "{48F1D757-92CB-4E3A-87BA-E2C6E98DBEF8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExponentialSearchAlgorithm", "ExponentialSearchAlgorithm", "{48F1D757-92CB-4E3A-87BA-E2C6E98DBEF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExponentialSearch", "Searching\ExponentialSearch\ExponentialSearch.csproj", "{58023C83-F3F8-41E6-94E7-A2B155325DC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExponentialSearch", "Searching\ExponentialSearch\ExponentialSearch.csproj", "{58023C83-F3F8-41E6-94E7-A2B155325DC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExponentialSearchTest", "Searching\ExponentialSearchTest\ExponentialSearchTest.csproj", "{A77ED0A0-EC32-48FC-AF0C-0DAFB2A774D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExponentialSearchTest", "Searching\ExponentialSearchTest\ExponentialSearchTest.csproj", "{A77ED0A0-EC32-48FC-AF0C-0DAFB2A774D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sorting", "Sorting", "{2DD19D00-44C8-4D03-A38A-2B9D3FA3AAE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SelectionSortAlgorithm", "SelectionSortAlgorithm", "{F43F0926-1C53-4636-9EB3-AA14CF16F3E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelectionSort", "Sorting\SelectionSort\SelectionSort.csproj", "{8F4A6BBE-99F6-48CF-9854-C97D3ABAC8FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSortTest", "Sorting\SelectionSortTest\SelectionSortTest.csproj", "{ACEF0A1A-DE23-4958-8CB3-C8FFB4B128F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +89,14 @@ Global
 		{A77ED0A0-EC32-48FC-AF0C-0DAFB2A774D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A77ED0A0-EC32-48FC-AF0C-0DAFB2A774D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A77ED0A0-EC32-48FC-AF0C-0DAFB2A774D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F4A6BBE-99F6-48CF-9854-C97D3ABAC8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F4A6BBE-99F6-48CF-9854-C97D3ABAC8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F4A6BBE-99F6-48CF-9854-C97D3ABAC8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F4A6BBE-99F6-48CF-9854-C97D3ABAC8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACEF0A1A-DE23-4958-8CB3-C8FFB4B128F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACEF0A1A-DE23-4958-8CB3-C8FFB4B128F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACEF0A1A-DE23-4958-8CB3-C8FFB4B128F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACEF0A1A-DE23-4958-8CB3-C8FFB4B128F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -101,6 +117,9 @@ Global
 		{48F1D757-92CB-4E3A-87BA-E2C6E98DBEF8} = {EFDF70DF-0FC3-424F-9A72-459C538F2D14}
 		{58023C83-F3F8-41E6-94E7-A2B155325DC5} = {48F1D757-92CB-4E3A-87BA-E2C6E98DBEF8}
 		{A77ED0A0-EC32-48FC-AF0C-0DAFB2A774D7} = {48F1D757-92CB-4E3A-87BA-E2C6E98DBEF8}
+		{F43F0926-1C53-4636-9EB3-AA14CF16F3E7} = {2DD19D00-44C8-4D03-A38A-2B9D3FA3AAE9}
+		{8F4A6BBE-99F6-48CF-9854-C97D3ABAC8FC} = {F43F0926-1C53-4636-9EB3-AA14CF16F3E7}
+		{ACEF0A1A-DE23-4958-8CB3-C8FFB4B128F0} = {F43F0926-1C53-4636-9EB3-AA14CF16F3E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3363A929-94D1-4362-955D-F6CA9FFEE0DB}
