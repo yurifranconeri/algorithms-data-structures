@@ -11,6 +11,11 @@ Repository to study, practice and **have fun** with algorithms and data structur
 - Interpolation Search
 - Exponential Search
 
+### Sorting
+
+- Selection Sort
+- Bubble Sort
+
 I'll try to improve or break the codes as much as possible :)
 
-> The man who codes the program should create the tests!
+> The man who codes the code should create the tests!
