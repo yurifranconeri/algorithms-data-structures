@@ -35,6 +35,18 @@ namespace SelectionSortTest
         }
 
         [TestMethod]
+        public void SortUnsortedArrayWithEqualElements()
+        {
+            int[] unsortedArray = { 9, 8, 3, 4, 7, 5, 8, 0, 1, 8, 6, 2 };
+            int[] sortedArray = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 8, 8, 9 };
+            var resultArray = SelectionSort.SelectionSort.Sort(unsortedArray);
+            for (int indexToCompare = 0; indexToCompare < unsortedArray.Length; indexToCompare++)
+            {
+                Assert.AreEqual(sortedArray[indexToCompare], resultArray[indexToCompare]);
+            }
+        }
+
+        [TestMethod]
         public void SelectionSortArrayForOneItemArray()
         {
             int[] unSortedArray = { 0 };
