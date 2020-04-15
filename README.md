@@ -1,4 +1,4 @@
-# A Coder always code his codesg
+# A Coder always code his codes
 Repository to study, practice and **have fun** with algorithms and data structures using **C#**, with unit tests, always! 
 
 ## Algorithms
