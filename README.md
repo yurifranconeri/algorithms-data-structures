@@ -15,6 +15,7 @@ Repository to study, practice and **have fun** with algorithms and data structur
 
 - Selection Sort
 - Bubble Sort
+- Insertion Sort
 
 I'll try to improve or break the codes as much as possible :)
 
