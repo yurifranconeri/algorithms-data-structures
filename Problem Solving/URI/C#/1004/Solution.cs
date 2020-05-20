@@ -4,9 +4,14 @@ class Solution
 {
     static void Main(string[] args)
     {
-        var firstInput = int.Parse(Console.ReadLine());
-        var secondInput = int.Parse(Console.ReadLine());
+        var firstNumber = int.Parse(Console.ReadLine());
+        var secondNumber = int.Parse(Console.ReadLine());
+        
+        Prod(firstNumber, secondNumber);
+    }
 
-        Console.WriteLine($"PROD = {firstInput * secondInput}");
+    private static void Prod(int firstNumber, int secondNumber)
+    {
+        Console.WriteLine($"PROD = {firstNumber * secondNumber}");
     }
 }

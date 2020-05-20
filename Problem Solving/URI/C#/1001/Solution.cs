@@ -1,10 +1,18 @@
 using System; 
 
 class Solution {
-    static void Main(string[] args) {
-            int firstInput = int.Parse(Console.ReadLine());
-            var secondInput = int.Parse(Console.ReadLine());
+    static void Main(string[] args)
+    {
+        var firstNumber = int.Parse(Console.ReadLine());
+        var secondNumber = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($"X = {firstInput + secondInput}");
+        Sum(firstNumber, secondNumber);
+    }
+
+    private static void Sum(int firstNumber, int secondNumber)
+    {
+        var sum = firstNumber + secondNumber;
+
+        Console.WriteLine($"X = {sum}");
     }
 }
