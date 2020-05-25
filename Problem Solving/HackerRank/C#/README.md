@@ -16,5 +16,7 @@ Repository to study, practice and **have fun** solving problems from anywhere us
     - [Mini-Max Sum](https://github.com/yurifranconeri/Algorithms/tree/master/Problem%20Solving/HackerRank/C%23/Warmup/Mini-Max%20Sum)
     - [Birthday Cake Candles](https://github.com/yurifranconeri/Algorithms/tree/master/Problem%20Solving/HackerRank/C%23/Warmup/Birthday%20Cake%20Candles)
     - [Time Conversion](https://github.com/yurifranconeri/Algorithms/tree/master/Problem%20Solving/HackerRank/C%23/Warmup/Time%20Conversion)
+- [Implementations](https://github.com/yurifranconeri/Algorithms/tree/master/Problem%20Solving/HackerRank/C%23/Implementations)
+    - [Grading Students](https://github.com/yurifranconeri/Algorithms/tree/master/Problem%20Solving/HackerRank/C%23/Implementations/Grading%20Students)
 
 > Home is where the code is always thinking of you
