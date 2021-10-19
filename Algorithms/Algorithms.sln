@@ -45,15 +45,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelectionSortTest", "Sortin
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BubbleSortAlgorithm", "BubbleSortAlgorithm", "{AD85187C-5A79-484A-9AAB-39BC7E7B4C67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "Sorting\BubbleSort\BubbleSort.csproj", "{28F2A97D-53AC-4917-A94F-72C9809333DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSort", "Sorting\BubbleSort\BubbleSort.csproj", "{28F2A97D-53AC-4917-A94F-72C9809333DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSortTest", "Sorting\BubbleSortTest\BubbleSortTest.csproj", "{13E647D2-3E8F-4C59-B982-8A16C006DAF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSortTest", "Sorting\BubbleSortTest\BubbleSortTest.csproj", "{13E647D2-3E8F-4C59-B982-8A16C006DAF3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InsertionSortAlgorithm", "InsertionSortAlgorithm", "{48AF6DBB-3C62-4942-A868-3372D6F863FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort", "Sorting\InsertionSort\InsertionSort.csproj", "{46837D77-2B7F-468B-8136-24E6FA64F4F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertionSort", "Sorting\InsertionSort\InsertionSort.csproj", "{46837D77-2B7F-468B-8136-24E6FA64F4F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSortTest", "Sorting\InsertionSortTest\InsertionSortTest.csproj", "{0AA51CBA-0C83-4CB2-8F92-96313206AF0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertionSortTest", "Sorting\InsertionSortTest\InsertionSortTest.csproj", "{0AA51CBA-0C83-4CB2-8F92-96313206AF0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QuickSortAlgorithm", "QuickSortAlgorithm", "{AD3BB450-817A-47FE-A44C-4F7233BA6703}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "Sorting\QuickSort\QuickSort.csproj", "{30F9C962-79F7-4A19-A518-1F31813DC1A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSortTest", "Sorting\QuickSortTest\QuickSortTest.csproj", "{AC6D2A17-B33E-47A7-BB4B-19A15CAD0BE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +131,14 @@ Global
 		{0AA51CBA-0C83-4CB2-8F92-96313206AF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AA51CBA-0C83-4CB2-8F92-96313206AF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AA51CBA-0C83-4CB2-8F92-96313206AF0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30F9C962-79F7-4A19-A518-1F31813DC1A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30F9C962-79F7-4A19-A518-1F31813DC1A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30F9C962-79F7-4A19-A518-1F31813DC1A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30F9C962-79F7-4A19-A518-1F31813DC1A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC6D2A17-B33E-47A7-BB4B-19A15CAD0BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC6D2A17-B33E-47A7-BB4B-19A15CAD0BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC6D2A17-B33E-47A7-BB4B-19A15CAD0BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC6D2A17-B33E-47A7-BB4B-19A15CAD0BE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -154,6 +168,9 @@ Global
 		{48AF6DBB-3C62-4942-A868-3372D6F863FE} = {2DD19D00-44C8-4D03-A38A-2B9D3FA3AAE9}
 		{46837D77-2B7F-468B-8136-24E6FA64F4F4} = {48AF6DBB-3C62-4942-A868-3372D6F863FE}
 		{0AA51CBA-0C83-4CB2-8F92-96313206AF0F} = {48AF6DBB-3C62-4942-A868-3372D6F863FE}
+		{AD3BB450-817A-47FE-A44C-4F7233BA6703} = {2DD19D00-44C8-4D03-A38A-2B9D3FA3AAE9}
+		{30F9C962-79F7-4A19-A518-1F31813DC1A2} = {AD3BB450-817A-47FE-A44C-4F7233BA6703}
+		{AC6D2A17-B33E-47A7-BB4B-19A15CAD0BE3} = {AD3BB450-817A-47FE-A44C-4F7233BA6703}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3363A929-94D1-4362-955D-F6CA9FFEE0DB}
